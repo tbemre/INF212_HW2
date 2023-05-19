@@ -1,8 +1,15 @@
+#ifndef HW_2_STUDENT
+#define HW_2_STUDENT
+#define MAX_PART 5
 #include <iostream>
 #include <string>
+
 using namespace std;
+
 class Student {
     public:
+        Student(const Student& s);
+        Student& operator=(const Student& s);
         void SetName();
         void SetName(string n);
         string GetName();
@@ -12,24 +19,6 @@ class Student {
     private:
     string name;
     float average;
-    int score[5];
+    int score[MAX_PART];
 };
-class Automobile {
-    public:
-        Automobile();
-        Automobile(string b,string m,int pd,string c);
-        void Setbrand(string b); 
-        void Setmodel(string m); 
-        void Setpdate(int pd); 
-        void Setcolor(string c); 
-        string Getbrand();  
-        string Getmodel(); 
-        int Getpdate(); 
-        string Getcolor(); 
-        void Print(); 
-    private:
-        string brand; 
-        string model;
-        int pdate;
-        string color;
-};
+#endif
