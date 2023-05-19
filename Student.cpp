@@ -17,6 +17,11 @@ Student& Student::operator=(const Student& s){
     return *this;
 }
 
+Student::Student(){
+    name = "";
+    average = 0;
+}
+
 void Student::SetName(){name = "";}
 
 void Student::SetName(string n){name = n;}

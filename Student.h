@@ -8,6 +8,7 @@ using namespace std;
 
 class Student {
     public:
+        Student();
         Student(const Student& s);
         Student& operator=(const Student& s);
         void SetName();
