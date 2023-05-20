@@ -1,3 +1,3 @@
 test:
-	g++ main.cpp Student.h Student.cpp Automobile.h Automobile.cpp -o main
+	g++ 210102002024_HW2_main.cpp 210102002024_HW2_Student.h 210102002024_HW2_Student.cpp 210102002024_HW2_Automobile.h 210102002024_HW2_Automobile.cpp -o main
 	./main

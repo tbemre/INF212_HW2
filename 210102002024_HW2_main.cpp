@@ -1,5 +1,5 @@
-#include "Student.h"
-#include "Automobile.h"
+#include "210102002024_HW2_Student.h"
+#include "210102002024_HW2_Automobile.h"
 
 void Find_the_Winner(Student& S1, Student& S2, Student& S3, Automobile& Prize);
 

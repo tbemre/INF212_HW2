@@ -1,4 +1,4 @@
-#include "Student.h"
+#include "210102002024_HW2_Student.h"
 
 Student::Student(const Student& s){
     name = s.name;
