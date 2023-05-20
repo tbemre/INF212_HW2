@@ -14,9 +14,9 @@ int main(){
     st1.SetScore(marks1);
     st2.SetScore(marks2);
     st3.SetScore(marks3);
-    Automobile car1, car2("TOFAŞ","Çakal Kasa Doğan SLX", 2000, "Bordo");
-    Find_the_Winner(st1,st2,st3,car1);
-    cout<<st1.GetName()<<st2.GetName()<<st3.GetName()<<endl;
+    Automobile car1("TOFAŞ","Çakal Kasa Doğan SLX", 2000, "Bordo");
+    Automobile car2(car1);
+    Find_the_Winner(st1,st2,st3,car2);
     return 0;
 }
 
